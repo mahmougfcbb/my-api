@@ -29,7 +29,8 @@ from pathlib import Path
 app = Flask(__name__)
 CORS(app)
 
-BASE_URL = "http://127.0.0.1:5000"
+# BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://my-api-n352.onrender.com/"
 AUDIO_DIR = Path("audio_files")
 AUDIO_DIR.mkdir(exist_ok=True)
 VISITS_FILE = Path("visits.json")
